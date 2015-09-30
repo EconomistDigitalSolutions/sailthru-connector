@@ -1,0 +1,6 @@
+<!-- BEGIN_INCLUDE(sailthru:greet) -->
+    <sailthru:greet config-ref="" friend="#[map-payload:friend]" />
+<!-- END_INCLUDE(sailthru:greet) -->
+<!-- BEGIN_INCLUDE(sailthru:add-entity) -->
+    <sailthru:add-entity config-ref="" key="id1"/>
+<!-- END_INCLUDE(sailthru:add-entity) -->

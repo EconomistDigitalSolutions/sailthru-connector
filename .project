@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>sailthru-connector</name>
+  <comment>This is a parent POM for settings defaults in the connectors built by Mule. THIS IS FOR INTERNAL USE
+        ONLY. DO NOT DISTRIBUTE. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects/>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.wst.common.project.facet.core.builder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.mule.tooling.devkit.devkitBuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.mule.tooling.core.muleBuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.mule.tooling.core.muleNature</nature>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+    <nature>org.mule.tooling.devkit.devkitNature</nature>
+    <nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+  </natures>
+</projectDescription>
